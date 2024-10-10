@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/3d41a3c29c.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/master.css">
+
+    <title>FLC</title>
+</head>
+<body>
+    <section id="home">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">FLC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active contact-items-description">
+                  <a class="nav-link" href="#programmes">Programmes<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active contact-items-description">
+                  <a class="nav-link" href="#about">About us</a>
+                </li>
+                <li class="nav-item active contact-items-description">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li> 
+              </ul>
+            </div>
+        </nav> 
+        
+        <div class="container-fluid home-page">    
+
+          <img class="title-image" src="./images/proMax.jpg" alt="Tree">
+            <h1 class="title">Math & Physics Tuition</h1>
+            <p class="title-description">Result oriented tuition center specializing in helping students achieve their goals</p>
+            <a href="#contact"><button type="button" class="btn btn-dark btn-lg title-button">Contact us</button></a>
+
+        </div>
+
+    </section>
+
+    <!-- why us? section -->
+
+    <section id="features">
+
+        <div class="features container-fluid">
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <i class="fas fa-book fa-4x feature-icon"></i>
+                    <h3 class="feature-title">Wide range of programmes</h3>
+                    <p class="feature-description">Including 'A' Levels, IB, AP and more</p>
+                </div>
+
+                <div class="col-md-4">
+                    <i class="fab fa-earlybirds fa-4x feature-icon"></i>
+                    <h3 class="feature-title">Experienced tutor</h3>
+                    <p class="feature-description">With over 20 years of teaching experience</p>
+                </div>
+
+                <div class="col-md-4">
+                    <i class="fas fa-laptop fa-4x feature-icon"></i>
+                    <h3 class="feature-title">Online tuition</h3>
+                    <p class="feature-description">For convenience and ease</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- programmes section -->
+
+    <section id="programmes">
+
+        <div class="container-fluid">
+
+            <h2 class="programme-title">Programmes</h2>
+            
+            <div class="accordion" id="accordionExample">
+
+                <div class="card">
+
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn collapsed programme-class" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Junior College
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+
+                    <div class="card-body">
+                      <h3 class="subject-title">Math</h3>
+                        <ul>
+                          <li class="subject">H1 Mathematics</li>
+                          <li class="subject">H2 Mathematics</li>
+                          <li class="subject">H3 Mathematics</li>
+                          <li class="subject">H2 Further Mathematics</li>
+                        </ul>
+                     
+                      <h3 class="subject-title">Physics</h3>
+                        <ul>
+                          <li class="subject">H1 Physics</li>
+                          <li class="subject">H2 Physics</li>
+                          <li class="subject">H3 Physics</li>
+                        </ul>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="card">
+
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn collapsed programme-class" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        International Baccalaureate
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+
+                    <div class="card-body">
+                      <h3 class="subject-title">Math</h3>
+                        <ul>
+                          <li class="subject">Mathematics standard level</li>
+                          <li class="subject">Mathematics higher level</li>
+                          <li class="subject">Further mathematics higher level</li>
+                        </ul>
+
+                      <h3 class="subject-title">Physics</h3>
+                        <ul>
+                          <li class="subject">Physics standard level</li>
+                          <li class="subject">Physics higher level</li>
+                        </ul>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="card">
+
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn collapsed programme-class" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Advanced Programme
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+
+                    <div class="card-body">
+                      <h3 class="subject-title">Math</h3>
+                        <ul>
+                          <li class="subject">AP Calculus AB</li>
+                          <li class="subject">AP Calculus BC</li>
+                          <li class="subject">AP Calculus Statistics</li>
+                        </ul>
+                  
+                      <h3 class="subject-title">Physics</h3>
+                        <ul>
+                          <li class="subject">AP Physics 1</li>
+                          <li class="subject">AP Physics 2</li>
+                          <li class="subject">AP Physics C</li>
+                        </ul>
+                    </div>
+
+                  </div>
+
+                </div>
+
+            </div>
+
+            <div class="price">
+
+              <p>
+                <button class="btn btn-outline-dark price-button" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Price
+                </button>
+              </p>
+  
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                  <p class="price-description">Onsite (private) - $100/hr</p>
+                  <p class="price-description">Onsite (group tuition) - $60/hr</p>
+                  <p class="price-description">Online (private) - $80/hr</p>
+                </div>
+              </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about us section -->
+
+    <section id="about">
+
+        <div class="container-fluid">
+
+          <div class="about-class">
+
+            <h2 class="about-title">About us</h2>
+
+            <img class="about-image" src="./images/proMax.jpg" alt="Tree">
+            
+            <div class="about-description-class">
+              <p class="about-description">Fig Learning Centre (FIG) was established in 1997 as a high-quality academic centre to support its students in meeting their future career aspirations.</p>
+              <p class="about-description">We began operation in Katong (Singapore)  and relocated  to the present Waterloo Centre in 2002, which is equipped with a Science laboratory to promote hands-on activities.</p>
+              <p class="about-description">Through our result-oriented teaching methods, many batches of students achieved excellent exam scores that enabled them to transit successfully to higher-level education.</p>
+              <p class="about-description">Presently, our focus is on providing tutoring service (group or individual) to pre-university students in Math and Science-related subjects. Apart from ensuring a good foundation is laid on the concepts, we also strive to deepen the learning process by going beyond the subject syllabus requirements.</p>
+              <p class="about-description">We would be happy to work with you in supporting your academic aspirations. Please feel free to contact us for a discussion on providing you with a suitable learning program.</p>
+            </div>
+
+          </div>
+          
+
+          <div class="about-tutor-class">
+
+            <h2 class="about-tutor-title">About the tutor</h2>
+
+            <img class="about-tutor-image" src="./images/buburAke.jpg" alt="Mr Liao">
+
+            <div class="about-tutor-description-class">
+              <p class="about-description">Hello, I am Mr Liao, the founder and supervisor of Fig Learning Centre. I have been teaching Math and Physics at JC and tertiary levels since 1998. I enjoy thinking,  learning and teaching these subjects very much, and I hope to help you acquire deeper knowledge about our wonderful world of Physics and Mathematics too.</p> 
+              <p class="about-description">Personally, I believe that anyone who has the willingness to practise and the curiosity to ask questions will eventually attain a good understanding of the subject matter. Scoring well at exams helps in smoothening one's academic pathway, but more importantly, developing a real passion for the subject will lead a learner to scale greater heights. Hence, I always like to supplement my lessons with interesting links to motivate further explorations.</p>
+              <p class="about-description">At Fig Learning Centre, we strive to inspire our students to challenge themselves to tackle harder problems once the basics are mastered. We guide them by giving just enough hints for them to solve these  problems independently. As instructors, students' joy of discovery after persevering to crack a fun puzzle gives us a great sense of satisfaction too.</p>
+              <p class="about-description">Please feel free to contact me to discuss about any Math and Physics-related matters, whether concerning lesson-planning or just some Science questions that interest you.</p> 
+              <p class="about-description">Happy learning !</p>
+            </div>
+            
+          </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact section -->
+ 
+    <section id="contact">
+
+        <div class="container-fluid contact-page">
+
+                <h1 class="contact-page-title">Contact</h1>
+
+                <div class="row contact-items-class">
+
+                  <div class="col-md-4 contact-item">
+                    <i class="fas fa-envelope fa-3x contact-icon"></i>
+                    <a href="mailto:figlearningcentre@gmail.com">
+                      <p class="contact-items-title">Email</p>
+                      <p class="contact-items-description">promaxeducation@gmail.com</p>
+                    </a>
+                  </div>
+
+                  <div class="col-md-4 contact-item">
+                    <i class="fas fa-phone fa-3x contact-icon"></i>
+                    <a href="tel:89520425">
+                      <p class="contact-items-title">Biz bilan bog'laning</p>
+                      <p class="contact-items-description">‎(+998) 99 813 77 76  </p>
+                    </a>
+                  </div>
+
+                  <div class="col-md-4 contact-item">
+                    <i class="fas fa-map-marker-alt fa-3x contact-icon"></i>
+                    <p class="contact-items-title">Address</p>
+                      <!-- <p class="contact-items-description">Blk 261 Waterloo Centre
+                          #03-06 Waterloo Street
+                          Singapore 180261​</p> -->
+                      <p class="contact-items-description">Toshkent, Chilonzor tumani, Navbahor mahalla fuqarolar yigʻini</p>
+                  </div>
+                    
+                    
+                   
+                </div>
+
+        </div>
+
+    </section>
+
+    <!-- footer -->
+
+    <section id="footer">
+
+        <a href="https://www.facebook.com/Promaxedu/"><i class="fab fa-facebook fa-2x social-icon"></i></a>
+        <a href="https://www.instagram.com/promax_education/"><i class="fab fa-instagram fa-2x social-icon"></i></a>
+        <a href="https://www.youtube.com/@PROMAXEDUCATION"><i class="fab fa-youtube fa-2x social-icon"></i></a>
+        
+        <p class="contact-items-description">© COPYRIGHT 2021. ALL RIGHTS RESERVED.</p>
+
+    </section>
+    
+</body>
+</html>

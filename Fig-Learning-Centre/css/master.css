@@ -1,0 +1,206 @@
+/* for screen width size tablet and bigger */
+@media screen and (min-width: 600px) {
+    .title-image{
+        float: right;
+        width: 50%;
+        border-radius: 7%;
+    }
+
+    .home-page, #programmes, #about, #footer {
+        padding: 4% 25%;
+    }
+    
+    .features{
+        padding: 4% 10%;
+    }
+    
+    .navbar{
+        padding: 2rem 25%;
+    }
+
+    .about-image{
+        float: left;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 100%;
+        margin: 0 2rem 2rem 0;
+    }
+
+
+    .about-tutor-image{
+        float: right;
+        width: 15rem;
+        height: 15rem;
+        border-radius: 100%;
+        margin: 0 2rem 2rem 0;
+    }
+
+    .about-class{
+        margin-bottom: 5rem;
+    }
+
+} 
+
+/* for screen width size of phone */
+@media screen and (max-width: 600px) {
+
+    .title-image{
+        margin-top:2rem;
+    }
+
+    #home, #features, #programmes, #about, #contact, #footer {
+        padding: 5% 4%;
+    }
+
+    .about-image, .about-tutor-image{
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        margin: 1.5rem 0;
+    }
+
+    .contact-item{
+        margin-bottom: 3rem;
+    }
+
+}
+
+.contact-page{
+    text-align: center;
+}
+
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+.title-description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.title-button{
+    margin: 1.5rem 0;
+}
+
+.features{
+    text-align: center;
+    background-color: rgb(198, 255, 198);
+}
+
+.feature-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;  
+}
+
+.feature-description{
+    font-family: 'Poppins', sans-serif;
+}
+
+.feature-icon{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.programme-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.programme-class{
+    font-family: 'Poppins', sans-serif;
+}
+
+.subject-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.subject{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.price{
+    margin-top: 1rem;
+}
+
+.price-button{
+    font-family: 'Poppins', sans-serif;
+}
+
+.price-description{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.about-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.about-tutor-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.about-description{
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+}
+
+.contact-page{
+    padding: 1.5rem 2rem;
+}
+
+.contact-page-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 1.5rem 0;
+}
+
+.contact-items-class{
+    padding: 2rem 1rem;
+}
+
+.contact-items-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.contact-items-description{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-icon{
+    margin-bottom: 2rem;
+}
+
+
+#footer{
+    text-align: center;
+}
+
+.social-icon{
+    margin: 15px;
+}
+
+a{
+    color: black;
+}
+
